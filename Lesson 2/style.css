@@ -1,0 +1,44 @@
+body
+{
+background-image: url(./images/tetris.jpg);
+background-size: cover;
+color : rgb(16, 104, 236)
+}
+
+div
+{
+   background-color: rgb(255, 255, 255);
+width: 300px;
+font-family: sans-serif;
+padding : 100px ; /* Внутренний отступ */
+ margin:auto; /*Внешний отступ */
+ margin-bottom: 30px;
+}
+p
+{
+color: rgb(240, 17, 66)
+
+}
+
+h1
+{
+text-align: center;
+margin-bottom: 50px;
+}
+.popularity
+{
+    background-color: rgb(57, 38, 165);
+    width: 300px;
+    font-family: sans-serif;
+    padding : 100px ; /* Внутренний отступ */
+ margin:auto; /*Внешний отступ */
+ margin-bottom: 30px;
+}
+.reasons{
+    background-color: rgb(211, 34, 87);
+    width: 300px;
+    font-family: sans-serif;
+    padding : 100px ; /* Внутренний отступ */
+    margin:auto; /*Внешний отступ */
+    margin-bottom: 30px;
+}
