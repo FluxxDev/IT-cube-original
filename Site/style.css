@@ -1,0 +1,39 @@
+img
+{
+width: 300px;
+padding-left: 5px;
+padding-bottom: 50px;
+}
+
+.header
+{
+padding: 10px 150px;
+display:flex;
+background-color: #3b3636;
+justify-content: space-between;
+align-items: center;
+}
+.header__nav a
+{
+color:crimson;
+text-decoration : none;  
+margin: 50px;
+font-size:25px;
+
+}
+body
+{
+margin:0;
+font-family: "Roboto Condensed", sans-serif;
+}
+.header__mail
+{
+padding: 10px;
+color:crimson;
+text-decoration: none;
+border-radius:20px;
+background-color: #fff;
+}
+
+
+
