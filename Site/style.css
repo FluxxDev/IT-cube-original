@@ -15,7 +15,7 @@ align-items: center;
 }
 .header__nav a
 {
-color:crimson;
+color:bisque;
 text-decoration : none;  
 margin: 50px;
 font-size:25px;
@@ -25,15 +25,43 @@ body
 {
 margin:0;
 font-family: "Roboto Condensed", sans-serif;
+background-color: #7e7979;
 }
 .header__mail
 {
 padding: 10px;
-color:crimson;
+color:black;
 text-decoration: none;
 border-radius:20px;
 background-color: #fff;
 }
+div
+{
+position:absolute;
+left:200px;
+top:50%;
+transform: translateY(-50%); 
+}
+.order
+{
+    padding: 10px;
+    color:black ;
+    text-decoration: none;
+    border-radius:20px;
+    background-color: #fff;
+}
+.portfolio__div
+{
+padding-top: 750px;
+position:absolute;
+left:1000px;
+top:50%;    
+left:200px;
+transform: translateY(-50%); 
+    
+}
+
+
 
 
 
