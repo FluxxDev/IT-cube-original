@@ -9,7 +9,7 @@ padding-bottom: 50px;
 {
 padding: 10px 150px;
 display:flex;
-background-color: #3b3636;
+background-color: #080808;
 justify-content: space-between;
 align-items: center;
 }
@@ -26,6 +26,8 @@ body
 margin:0;
 font-family: "Roboto Condensed", sans-serif;
 background-color: #7e7979;
+background-image:url(./b40dfc97467dfae7981e43e91a1ce60f.jpg) ;
+background-size:cover;
 }
 .header__mail
 {
@@ -35,9 +37,9 @@ text-decoration: none;
 border-radius:20px;
 background-color: #fff;
 }
-div
+.slogan
 {
-position:absolute;
+position:absolute;  
 left:200px;
 top:50%;
 transform: translateY(-50%); 
@@ -50,16 +52,31 @@ transform: translateY(-50%);
     border-radius:20px;
     background-color: #fff;
 }
+
 .portfolio__div
 {
 padding-top: 750px;
-position:absolute;
 left:1000px;
 top:50%;    
-left:200px;
-transform: translateY(-50%); 
-    
+left:200px;  
+display:flex;
+padding-left:200px;
 }
+
+.portfolio_desc
+{
+width:300px;
+padding-left:50px;
+}
+
+video
+{
+width:750px;
+}
+
+
+
+
 
 
 
